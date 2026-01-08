@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Simple Friendly Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Frontend Fundamentals Quiz</h1>
+
+    <section id="quiz">
+      <div class="meta">Question <span id="current">1</span> of <span id="total">5</span></div>
+      <h2 id="question">Question text</h2>
+      <div id="choices" class="choices"></div>
+      <div class="actions">
+        <button id="nextBtn" disabled>Next</button>
+      </div>
+    </section>
+
+    <section id="result" class="hidden">
+      <h2>All done!</h2>
+      <p id="scoreText">Your score: 0/5</p>
+      <button id="retryBtn">Try again</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
